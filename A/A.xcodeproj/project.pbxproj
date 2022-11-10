@@ -17,6 +17,7 @@
 		A94366D5291CC28F00643F66 /* ATests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94366D4291CC28F00643F66 /* ATests.m */; };
 		A94366DF291CC28F00643F66 /* AUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94366DE291CC28F00643F66 /* AUITests.m */; };
 		A94366E1291CC28F00643F66 /* AUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94366E0291CC28F00643F66 /* AUITestsLaunchTests.m */; };
+		A94366F0291CC8EA00643F66 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94366EE291CC8EA00643F66 /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		A94366DA291CC28F00643F66 /* AUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94366DE291CC28F00643F66 /* AUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUITests.m; sourceTree = "<group>"; };
 		A94366E0291CC28F00643F66 /* AUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A94366EE291CC8EA00643F66 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		A94366EF291CC8EA00643F66 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		A94366B7291CC28D00643F66 /* A */ = {
 			isa = PBXGroup;
 			children = (
+				A94366ED291CC8EA00643F66 /* AViewController */,
 				A94366B8291CC28D00643F66 /* AppDelegate.h */,
 				A94366B9291CC28D00643F66 /* AppDelegate.m */,
 				A94366BB291CC28D00643F66 /* SceneDelegate.h */,
@@ -134,6 +138,15 @@
 				A94366E0291CC28F00643F66 /* AUITestsLaunchTests.m */,
 			);
 			path = AUITests;
+			sourceTree = "<group>";
+		};
+		A94366ED291CC8EA00643F66 /* AViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A94366EE291CC8EA00643F66 /* AViewController.m */,
+				A94366EF291CC8EA00643F66 /* AViewController.h */,
+			);
+			path = AViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A94366C0291CC28D00643F66 /* ViewController.m in Sources */,
+				A94366F0291CC8EA00643F66 /* AViewController.m in Sources */,
 				A94366BA291CC28D00643F66 /* AppDelegate.m in Sources */,
 				A94366CB291CC28F00643F66 /* main.m in Sources */,
 				A94366BD291CC28D00643F66 /* SceneDelegate.m in Sources */,
