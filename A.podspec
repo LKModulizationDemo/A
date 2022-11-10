@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   # spec.description  = <<-DESC
                    # DESC
 
-  spec.homepage     = "git@github.com:LKModulizationDemo/A.git"
+  spec.homepage     = "https://github.com/LKModulizationDemo/A.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "git@github.com:LKModulizationDemo/A.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/LKModulizationDemo/A.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
