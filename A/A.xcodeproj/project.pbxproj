@@ -20,6 +20,8 @@
 		A94366E1291CC28F00643F66 /* AUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94366E0291CC28F00643F66 /* AUITestsLaunchTests.m */; };
 		A94366F0291CC8EA00643F66 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94366EE291CC8EA00643F66 /* AViewController.m */; };
 		A943673D291CDE1B00643F66 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = A943673C291CDE1B00643F66 /* Target_A.m */; };
+		A94367FC29220A1D00643F66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94367FB29220A1D00643F66 /* UIKit.framework */; };
+		A94367FE29220A2700643F66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94367FD29220A2700643F66 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		A94366EF291CC8EA00643F66 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		A943673B291CDE1B00643F66 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
 		A943673C291CDE1B00643F66 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		A94367FB29220A1D00643F66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A94367FD29220A2700643F66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E58330EA81B4299DB4DA8392 /* libPods-A.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-A.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F2D1D145F400F0E696A47C /* Pods-A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.release.xcconfig"; path = "Target Support Files/Pods-A/Pods-A.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +76,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				119FBD2EBCF546103AAB2423 /* libPods-A.a in Frameworks */,
+				A94367FE29220A2700643F66 /* Foundation.framework in Frameworks */,
+				A94367FC29220A1D00643F66 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +101,8 @@
 		2FB2F703A991279DE7D74032 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A94367FD29220A2700643F66 /* Foundation.framework */,
+				A94367FB29220A1D00643F66 /* UIKit.framework */,
 				E58330EA81B4299DB4DA8392 /* libPods-A.a */,
 			);
 			name = Frameworks;
