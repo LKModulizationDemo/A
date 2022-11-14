@@ -1,6 +1,6 @@
 {
   "name": "B_Category",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "summary": "Bccc",
   "homepage": "git@github.com:LKModulizationDemo/B_Category.git",
   "license": "MIT ()",
@@ -8,11 +8,11 @@
     "": ""
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source": {
     "git": "git@github.com:LKModulizationDemo/B_Category.git",
-    "tag": "0.0.1"
+    "tag": "0.0.3"
   },
   "source_files": "B_Category/B_Category/Classes/*.{h,m}",
   "resources": [

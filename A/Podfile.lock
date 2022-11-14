@@ -1,5 +1,5 @@
 PODS:
-  - B_Category (0.0.1):
+  - B_Category (0.0.3):
     - CTMediator
   - CTMediator (46)
   - HandyFrame (1.2.0)
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../../B_Category"
 
 SPEC CHECKSUMS:
-  B_Category: 980d089b443c020ffd1d73e7a63e294bd0a4baeb
+  B_Category: b7e909dec1db9d9ad651bbbb7720d368a9da0bda
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
   HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
 
